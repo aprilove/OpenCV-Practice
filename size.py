@@ -82,3 +82,11 @@ for c in cnts:
     
     cv2.imshow("image", og)
     cv2.waitKey(0)
+
+    """
+    Explanation of how it works: 
+    1. Find contours of the shape
+    2. Draw a rectangle around the shape
+    3. Find the distances between the adjacent midpoints of the edges
+    
+    """
